@@ -11,7 +11,7 @@ public class  BasicAccount extends BankAccount {
     }
 
     public double withdraw(){
-        if  (balance >= withdraw)
+        if  (balance < withdraw)
             System.out.println("There is no such amount in your account");
         return withdraw;
     }
