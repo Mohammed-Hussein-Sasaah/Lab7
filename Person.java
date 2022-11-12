@@ -8,7 +8,7 @@ for these classes and methods.*/
 class Person {
     String name;
     int year;
-    Person(String _ame, int year) {
+    Person(String name, int year) {
 
         name = name;
 
